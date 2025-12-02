@@ -71,7 +71,7 @@ export default function DressCodeSection() {
               ? 'opacity-100 translate-y-0' 
               : 'opacity-0 -translate-y-8'
           }`}>
-            Código de Vestimenta
+            Código de Vestimenta Formal
           </h2>
           
           {/* Imagen - Animación con escala */}
@@ -92,7 +92,9 @@ export default function DressCodeSection() {
           </div>
           
           {/* Mensaje principal - Animación desde la izquierda */}
-          <h3 className={`text-3xl font-bold text-white transition-all duration-700 delay-600 ${
+          <h3 
+          style={{display:'none'}}
+          className={`text-3xl font-bold text-white transition-all duration-700 delay-600 ${
             isVisible 
               ? 'opacity-100 translate-x-0' 
               : 'opacity-0 -translate-x-8'
@@ -110,7 +112,9 @@ export default function DressCodeSection() {
           </p>
 
           {/* Restricción - Animación desde abajo */}
-          <p className={`text-xl text-indigo-500 my-4 font-bold transition-all duration-700 delay-1000 ${
+          <p 
+          style={{display:'none'}}
+          className={`text-xl text-indigo-500 my-4 font-bold transition-all duration-700 delay-1000 ${
             isVisible 
               ? 'opacity-100 translate-y-0' 
               : 'opacity-0 translate-y-8'
