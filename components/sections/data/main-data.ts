@@ -53,7 +53,7 @@ export const quinceMainData = {
     ],
     date: {
       full: "Sábado 14 de Marzo 2026",
-      isoDate: "2026-03-14T12:00:00",
+      isoDate: "2026-03-14T19:00:00",
       day: "Sábado",
       dayNumber: "25",
       month: "Abril",
@@ -72,7 +72,7 @@ export const quinceMainData = {
     },
     //Misa a la 1pm parroquia Santa fe de Guadalupe, la Sauceda Guanajuato.
     ceremony: {
-      time: "12:00 hrs.",
+      time: "19:00 hrs.",
       venue: "Capilla Privada",
       address: "Juan de Dios Peza 16, La Era I y II, Iztapalapa, 09860 Ciudad de México, CDMX",
       type: "Misa de Acción de Gracias",
@@ -80,7 +80,7 @@ export const quinceMainData = {
       ceremonyImage: "/images/quince6.jpeg",
     },
     party: {
-      time: "15:00 hrs.",
+      time: "20:00 hrs.",
       venue: "Recepciones La Fuente",
       address: "Juan de Dios Peza 16, La Era I y II, Iztapalapa, 09860 Ciudad de México, CDMX",
       type: "Baile y Fiesta",
@@ -165,7 +165,7 @@ export const quinceMainData = {
   dressCode:{
     title: "Código de Vestimenta",
     message: "¡Vístete para impresionar!",
-    subtitle: "Código de vestimenta formal - Rosa solo la quinceañera",
+    subtitle: "Vestimenta formal - Lila y Azul claro solo la quinceañera",
     restriction: "Restricción: No niños",
     backgroundImage: "/images/dressCode1.png",
   },
@@ -213,11 +213,11 @@ export const quinceMainData = {
         link: "https://example.com/lluvia-de-sobres",
       },
       {
-        id: "regaloSorpresa",
-        name: "Regalo Sorpresa",
+        id: "mesaRegalos",
+        name: "Mesa de Regalos Liverpool",
         icon: "🎁",
         description:
-          "Si prefieres dar un regalo físico, una sorpresa especial siempre es bienvenida.",
+          "Código 51882894 - MIS XV AÑOS FATY",
         image: "/images/gifts/gift-box.png",
         link: "https://example.com/mesa-de-regalos",
       }
@@ -404,5 +404,10 @@ export const quinceMainData = {
       src: "/video/bfat6c.mp4",
       type: "video/mp4",
     },
+    dressCode:{
+      id: "dresscode",
+      src: "/video/bfat7c.mp4",
+      type: "video/mp4",
+    }
   }
 };

@@ -29,10 +29,9 @@ export function PapaScene({ onComplete, isActive }: PapaSceneProps) {
   const thirdMessage = `
   Hoy sólo quiero expresar mi cariño hacia ti. 
   Pues aunque no haya sangre que nos una... 
-  hay algo más fuerte que eso: el amor.
-  Gracias por cuidar de mí, gracias por protegerme, gracias por hacer tu trabajo. 
+  hay algo más fuerte que eso: el amor de un padre, Gracias!!.
   `
-  
+  //Gracias por cuidar de mí, gracias por protegerme, gracias por hacer tu trabajo. 
   // Handle video loading
   const handleVideoLoaded = () => {
     console.log('MamaScene - Video loaded successfully')

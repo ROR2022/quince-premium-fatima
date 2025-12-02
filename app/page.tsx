@@ -11,7 +11,7 @@ import { ParentsScene } from "@/components/scenes/parents-scene"
 import { DateScene } from "@/components/scenes/date-scene"
 import { ReceptionScene } from "@/components/scenes/reception-scene"
 import { ScheduleScene } from "@/components/scenes/schedule-scene"
-import { DressCodeScene } from "@/components/scenes/dress-code-scene"
+import { DressCodeScene } from "@/components/scenes/dresscode-scene"
 import { GiftScene } from "@/components/scenes/gift-scene"
 import { RsvpScene } from "@/components/scenes/rsvp-scene"
 import { ClosingScene } from "@/components/scenes/closing-scene"
@@ -23,6 +23,7 @@ import { PapaScene } from "@/components/scenes/papa-scene"
 import { Papa2Scene } from "@/components/scenes/papa2-scene"
 import { AbuelosScene } from "@/components/scenes/abuelos-scene"
 import { ChambelanesScene } from "@/components/scenes/chambelanes-scene"
+//import { DressCodeScene } from "@/components/scenes/dresscode-scene"
 
 const SCENE_DURATION = 9000 // 9 seconds per scene
 
@@ -91,13 +92,13 @@ export default function QuinceaneraInvitation() {
       {currentScene === 1 && <MessageScene1 onComplete={handleSceneComplete} isActive={!isPaused} />}
       {currentScene === 2 && <MamaScene onComplete={handleSceneComplete} isActive={!isPaused} />}
       {currentScene === 3 && <PapaScene onComplete={handleSceneComplete} isActive={!isPaused} />}
-      {currentScene === 4 && <Papa2Scene onComplete={handleSceneComplete} isActive={!isPaused} />}
-      {currentScene === 5 && <AbuelosScene onComplete={handleSceneComplete} isActive={!isPaused} />}
-      {currentScene === 6 && <ChambelanesScene onComplete={handleSceneComplete} isActive={!isPaused} />}
-      {currentScene === 7 && <NameScene onComplete={handleSceneComplete} isActive={!isPaused} />}
-      {currentScene === 8 && <MessageScene3 onComplete={handleSceneComplete} isActive={!isPaused} />}
-      {currentScene === 9 && <ParentsScene onComplete={handleSceneComplete} isActive={!isPaused} />}
-      {currentScene === 10 && <DateScene onComplete={handleSceneComplete} isActive={!isPaused} />}
+      {currentScene === 4 && <AbuelosScene onComplete={handleSceneComplete} isActive={!isPaused} />}
+      {currentScene === 5 && <ChambelanesScene onComplete={handleSceneComplete} isActive={!isPaused} />}
+      {currentScene === 6 && <NameScene onComplete={handleSceneComplete} isActive={!isPaused} />}
+      {currentScene === 7 && <MessageScene3 onComplete={handleSceneComplete} isActive={!isPaused} />}
+      {currentScene === 8 && <ParentsScene onComplete={handleSceneComplete} isActive={!isPaused} />}
+      {currentScene === 9 && <DateScene onComplete={handleSceneComplete} isActive={!isPaused} />}
+      {currentScene === 10 && <DressCodeScene onComplete={handleSceneComplete} isActive={!isPaused} />}
       {currentScene === 11 && <ReceptionScene onComplete={handleSceneComplete} isActive={!isPaused} />}
       {currentScene === 12 && <GalleryScene onComplete={handleSceneComplete} isActive={!isPaused} />}
       {currentScene === 13 && <ScheduleScene onComplete={handleSceneComplete} isActive={!isPaused} />}
