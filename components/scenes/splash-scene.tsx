@@ -169,7 +169,9 @@ function SplashSceneContent({ onStart }: SplashSceneProps) {
                 </div>
               )}
             </div>
-            <p className="relative text-2xl md:text-3xl text-white font-medium animate-pulse drop-shadow-lg">
+            <p 
+            //style={{display:'none'}}
+            className="relative text-2xl md:text-3xl text-white font-medium animate-pulse drop-shadow-lg">
               ✨ Toca para comenzar ✨
             </p>
           </div>

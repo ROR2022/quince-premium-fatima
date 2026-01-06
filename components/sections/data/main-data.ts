@@ -204,6 +204,15 @@ export const quinceMainData = {
       "Agradezco de corazón tu generosidad y apoyo en este día tan especial. ¡Gracias por ser parte de mi vida!",
     giftsOptions: [
       {
+        id: "mesaRegalos",
+        name: "Mesa de Regalos Liverpool",
+        icon: "🎁",
+        description:
+          "Código 51882894 - MIS XV AÑOS FATY",
+        image: "/images/gifts/gift-box.png",
+        link: "https://example.com/mesa-de-regalos",
+      },
+      {
         id: "lluviaSobres",
         name: "Lluvia de Sobres",
         icon: "💌",
@@ -212,15 +221,7 @@ export const quinceMainData = {
         image: "/images/gifts/envelope.png",
         link: "https://example.com/lluvia-de-sobres",
       },
-      {
-        id: "mesaRegalos",
-        name: "Mesa de Regalos Liverpool",
-        icon: "🎁",
-        description:
-          "Código 51882894 - MIS XV AÑOS FATY",
-        image: "/images/gifts/gift-box.png",
-        link: "https://example.com/mesa-de-regalos",
-      }
+      
     ],
   },
   gallery: {
@@ -336,7 +337,7 @@ export const quinceMainData = {
   videoFondos: {
    splash: {
       id: "splash",
-      src: "/video/bfat2c.mp4",
+      src: "/video/portada1.mp4",
       type: "video/mp4",
     },
     title: {

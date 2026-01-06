@@ -29,7 +29,7 @@ export function AbuelosScene({ onComplete, isActive }: AbuelosSceneProps) {
   const secondMessage = abuelos.paternos.abuela;
   const thirdMessage = abuelos.paternos.abuelo;
   const fourthMessage = `
-  ...NO HAY EN NUESTRAS VIDAS COMPLICES MAS HERMOSOS 
+  ...No hay en NUESTRAS VIDAS COMPLICES MAS HERMOSOS 
   QUE LOS ABUELOS EN ELLOS TENEMOS UNOS PADRES, 
   AMIGOS, SOBRE TODO MAGOS!!, 
   LOS AMO INFINITAMENTE.!
@@ -179,7 +179,7 @@ export function AbuelosScene({ onComplete, isActive }: AbuelosSceneProps) {
           {thirdTextComplete && (
             <div className="animate-fade-in rounded-2xl p-4 md:p-6 lg:p-8">
               <TypewriterText
-                text={fourthMessage}
+                text={fourthMessage.toLowerCase()}
                 delay={150}
                 className="font-main-text text-3xl md:text-4xl lg:text-5xl text-white font-bold tracking-wide drop-shadow-2xl"
                 onComplete={handleFourthTextComplete}

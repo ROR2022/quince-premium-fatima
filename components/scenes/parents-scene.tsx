@@ -29,7 +29,7 @@ export function ParentsScene({ onComplete, isActive = true }: ParentsSceneProps)
 
   
   const firstMessage = "Recepción"
-  const secondMessage = event.party.venue
+  const secondMessage = (event.party.venue).toUpperCase();
   const thirdMessage = event.party.time
   const fourthMessage = event.party.address
   const fifthMessage = event.party.type
